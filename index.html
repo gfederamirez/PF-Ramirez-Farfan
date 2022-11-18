@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- GoogleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    
+    <!-- Animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <!-- CSS Bootstrap con CDN links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- CSS propio -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Título de página -->
+    <title>Inicio</title>
+</head>
+
+<body>
+    <header>
+      <!-- Logo y nombre de la tienda -->    
+      <h1>PIZZA ONLINE</h1>
+      <div class="animate__animated animate__rubberBand">
+        <img src="img/logo-principal.png" alt="logo" class="imagen-header">
+      </div>
+      <!-- Botones de navegación -->    
+      <nav id="navegacion">
+          <ul class="menu-escritorio">
+              <li><a href="index.html">INICIO</a></li>
+              <li><a href="pages/tienda.html">MENU</a></li>
+              <li><a href="pages/nosotros.html">NOSOTROS</a></li>
+              <li><a href="pages/ubicacion.html">SUCURSALES</a></li>
+              <li><a href="pages/contacto.html">CONTACTO</a></li>
+          </ul>
+    </nav>
+</header>
+
+    <!-- Titulo y descripción-->
+    <section>
+        <H2>BIENVENIDOS A PIZZA ONLINE!</H2>
+        <p>En Pizza online, podrás disfrutar de las mejores pizzas!</p>
+    </section>
+
+    <!-- Carrusel de imágenes y descripción-->
+    <section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/img-slider-01.jpg" class="d-block w-100" alt="img-slider-01">
+              </div>
+              <div class="carousel-item">
+                <img src="img/img-slider-02.jpg" class="d-block w-100" alt="img-slider-02">
+              </div>
+              <div class="carousel-item">
+                <img src="img/img-slider-03.jpg" class="d-block w-100" alt="img-slider-03">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <p> Mirá nuestro menú y elegí las pizzas mas ricas y al mejor precio... </p>
+    </section>
+
+    <!-- Animaciones -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>new WOW().init();</script>
+
+    <!-- JS de Bootstrap con CDN links-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+
+<footer>
+    <!-- Redes sociales -->
+    <p>Seguinos en nuestras redes sociales:</p>
+    <img src="img/logo-facebook.png" alt="logo-facebook" class="imagen-footer">
+    <img src="img/logo-instagram.png" alt="logo-instagram" class="imagen-footer">
+    <img src="img/logo-whatsapp.png" alt="logo-whatsapp" class="imagen-footer">
+    
+    <!-- Créditos de desarrollador -->
+    <p>Este sitio fue desarollado sin fines comerciales</p>
+</footer>
+</html>

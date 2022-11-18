@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- GoogleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    
+    <!-- Animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <!-- CSS Bootstrap con CDN links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- CSS propio -->
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <!-- Título de página -->
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header>
+      <!-- Logo y nombre de la tienda -->    
+      <h1>PIZZA ONLINE</h1>
+      <div class="animate__animated animate__rubberBand">
+        <img src="../img/logo-principal.png" alt="logo" class="imagen-header">
+      </div>
+        <!-- Botones de navegación -->    
+        <nav id="navegacion">
+            <ul class="menu-escritorio">
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="tienda.html">MENU</a></li>
+                <li><a href="nosotros.html">NOSOTROS</a></li>
+                <li><a href="ubicacion.html">SUCURSALES</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Titulo y descripción-->
+    <section>
+        <h2>CONTACTATE CON NOSOTROS</h2>
+        <p> Dejanos tu consulta...</p>
+    </section>
+
+    <!-- Formulario de contacto -->
+    <section>
+        <form>
+            <fieldset class="formulario">
+                <legend class="titulo-formulario">Tus datos personales</legend>
+                <div>
+                    <label for="nombre">Nombres:</label>
+                    <input type="text" id="nombre" required>
+                </div>
+                
+                <div>
+                    <label for="apellido">Apellidos:</label>
+                    <input type="text" id="apellido" required>
+                </div>
+
+                <div>
+                    <label for="correo-electronico">Correo electronico:</label>
+                    <input type="email" id="correo-electronico" required>
+                </div>
+               
+                <div>
+                    <label for="asunto">Asunto:</label>
+                    <input type="text" id="asunto" required>
+                </div>
+                
+                <div>
+                    <label for="mensaje">Dejanos tu mensaje:</label>
+                    <textarea name="text" id="mensaje" rows="10"></textarea>
+                </div>
+            </fieldset>
+        </form>  
+            <!-- Botónes de acción formulario -->
+            <div>
+                <input type="submit" value="Enviar" class="boton">
+            </div>  
+    </section>
+
+    <!-- Animaciones -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>new WOW().init();</script>
+
+    <!-- JS de Bootstrap con CDN links-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+
+<footer>
+    <!-- Redes sociales -->
+    <p>Seguinos en nuestras redes sociales:</p>
+    <img src="../img/logo-facebook.png" alt="logo-facebook" class="imagen-footer">
+    <img src="../img/logo-instagram.png" alt="logo-instagram" class="imagen-footer">
+    <img src="../img/logo-whatsapp.png" alt="logo-whatsapp" class="imagen-footer">
+    
+    <!-- Créditos de desarrollador -->
+    <p>Este sitio fue desarollado sin fines comerciales</p>
+</footer>
+</html>
