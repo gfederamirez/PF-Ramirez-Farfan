@@ -1,0 +1,34 @@
+/* Contacto - Formulario */
+.formulario {
+    background-color: $background-color-2;
+    color: white;
+    margin: 1rem;
+    padding: 1rem; }
+  
+  /* Contacto - Formulario */
+  .formulario div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 1rem; }
+  
+  /* Contacto - Textos de formulario */
+  .formulario div label {
+    display: grid;
+    justify-content: center; }
+  
+  @media screen and (max-width: 500px) {
+    .formulario div {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      justify-content: center;
+      margin: 1rem; } }
+  
+  /* Contacto - Titulo de formulario */
+  .titulo-formulario {
+    background-color: $background-color-4;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }

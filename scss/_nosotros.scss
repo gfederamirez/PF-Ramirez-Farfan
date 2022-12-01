@@ -1,0 +1,55 @@
+/* Nosotros - Historia */
+.contenedor-historia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px; }
+  
+  @media screen and (min-width: 500px) {
+    .contenedor-historia {
+      flex-direction: row; } }
+  
+  .contenedor-historia img {
+    height: 200px;
+    margin: 1rem; }
+  
+  .contenedor-opciones {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  
+  .contenedor-labels {
+    display: flex;
+    gap: 1rem; }
+  
+  .contenedor-labels label {
+    background-color: $background-color-1;
+    color: white;
+    display: flex;
+    gap: 1rem;
+    cursor: pointer; }
+  
+  .boton-historia {
+    background-color: $background-color-1;
+    padding: 1rem; }
+  
+  .contenedor-botones a {
+    display: none; }
+  
+  #sitio-web,
+  #whatsapp-web {
+    display: none; }
+  
+  #sitio-web:checked ~ .contenedor-botones .boton-web {
+    display: block; }
+  
+  #whatsapp-web:checked ~ .contenedor-botones .boton-wpp {
+    display: block; }
+  
+  .contenedor-historia:nth-of-type(2n) {
+    background-color: $background-color-2;
+    color: white; }
+  
+  .contenedor-historia:not(:last-of-type) {
+    margin-bottom: 1rem; }
+    

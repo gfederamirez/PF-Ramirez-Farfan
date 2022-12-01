@@ -1,0 +1,14 @@
+/* General - Header */
+header {
+    background-image: radial-gradient($background-color-2, $background-color-1);
+    color: $color-2;
+    width: 100%;
+    padding: 1rem; }
+
+/* General - Imágen de Header */
+.imagen-header {
+    width: 10rem;
+    height: 10rem;
+    display: inline-block;
+    margin: 1rem; }
+  

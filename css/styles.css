@@ -1,305 +1,265 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* General - HTML */
-html {
-    font-family: 'Fredericka the Great', cursive;
-    color: white;
-}
-
-/* General - Body */
-body {
-    font-family: 'Fredericka the Great', cursive;
-    background-image: linear-gradient(orange, orangered);
-    color: white;
-    text-align: center;
-    margin: 0;
-}
-
+@charset "UTF-8";
+/* Variables para background */
+/* Variables para fuentes */
+/* Variable para color de letras */
+/* Variables para tamaño de letras */
+/* Variables para tamaño de pantalla */
 /* General - Header */
 header {
-    background-image: radial-gradient(orangered, orange);
-    color: yelow;
-    width: 100%;
-    padding: 1rem;
-}
+  background-image: radial-gradient(orangered, orange);
+  color: white;
+  width: 100%;
+  padding: 1rem; }
 
 /* General - Imágen de Header */
 .imagen-header {
-    width: 10rem;
-    height: 10rem;
-    display: inline-block;
-    margin: 1rem;
-}
+  width: 10rem;
+  height: 10rem;
+  display: inline-block;
+  margin: 1rem; }
 
-/* General - Footer */
-footer { 
-    background-color: orangered;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-/* General - Imágen de Footer */
-.imagen-footer {
-    width: 3rem;
-    height: 3rem;
-    display: inline-block;
-    margin: 1rem;
-}
+/* General - HTML */
+html {
+  font-family: "Fredericka the Great", cursive;
+  color: white; }
+
+/* General - Body */
+body {
+  font-family: "Fredericka the Great", cursive;
+  background-image: linear-gradient(orange, orangered);
+  color: white;
+  text-align: center;
+  margin: 0; }
 
 /* General - Botones de navegación */
-
 .menu-escritorio {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: space-between;
-    background-image: linear-gradient(orangered, orange, orangered);
-}
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-image: linear-gradient(orangered, orange, orangered); }
 
 .menu-item {
-    padding: 1rem;
-}
-
+  padding: 1rem; }
 
 /* General - Botones */
 .boton-general {
-    font-family: 'Black Ops One', cursive;
-    margin: 1rem;
-    padding: 1rem;
-}
+  font-family: "Black Ops One", cursive;
+  margin: 1rem;
+  padding: 1rem; }
 
 /* General - Textos de titulos (h1) */
 h1 {
-    font-size: 3rem;
-}
+  font-size: 3rem; }
 
 /* General - Textos de titulos (h2) */
 h2 {
-    font-size: 2rem;
-    padding: 1rem;
-}
+  font-size: 2rem;
+  padding: 1rem; }
 
 /* General - Textos de titulos (h2) */
-h3{
-    text-align: center;
-}
+h3 {
+  text-align: center; }
 
 /* General - Textos de navegador */
 a {
-    margin: 1rem;
-    padding: 1rem;
-    text-decoration: none;
-    transition: all 1s;
-}
+  margin: 1rem;
+  padding: 1rem;
+  text-decoration: none;
+  transition: all 1s; }
 
 /* Animación de textos de navegador */
-a:hover{
-    color: white;
-    background-color: orangered;    
-    padding: 1rem;
-    margin: 1rem;
-}
+a:hover {
+  color: white;
+  background-color: orangered;
+  padding: 1rem;
+  margin: 1rem; }
 
 /* General - Textos de párrafos */
 p {
-    margin: 1rem;
-    text-align: center;
-}
+  margin: 1rem;
+  text-align: center; }
 
 /*General - Imagenes no sobrepasan la pantalla*/
 img {
-    max-width: 100%;
-}
+  max-width: 100%; }
 
 /* Inicio - Control de carrusel izquierdo*/
-.carousel-control-prev{
-    background-color: orangered;
-}
+.carousel-control-prev {
+  background-color: orangered; }
 
 /* Inicio - Control de carrusel derecho*/
-.carousel-control-next{
-    background-color: orangered;
-}
+.carousel-control-next {
+  background-color: orangered; }
 
 /* Inicio - Control inferior */
 .carousel-indicators {
-    background-color: orangered;
-}
+  background-color: orangered; }
 
 /* Tienda - Tarjetas de productos */
 #productos-tienda {
-    grid-area: productos;
-}
+  grid-area: productos; }
 
 /* Tienda - Caja de productos */
- .caja-productos {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 1rem;
-    justify-items: center;
-}
+.caja-productos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 1rem;
+  justify-items: center; }
 
 @media screen and (max-width: 500px) {
-    .caja-productos {
-        grid-template-columns: 1fr;
-    }
-}
+  .caja-productos {
+    grid-template-columns: 1fr; } }
 
 @media screen and (max-widh: 500px) {
-    .caja-productos {
-        display: flex;
-        flex-direction: columns;
-    }
-}
+  .caja-productos {
+    display: flex;
+    flex-direction: columns; } }
 
 /* Tienda - Carta de productos */
 .carta-productos {
-    border: solid 0.2rem orangered;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem;
-}
+  border: solid 0.2rem orangered;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem; }
 
 /* Tienda - Texto de oferta */
 .oferton {
-    background-color:orangered;
-    color: white;
-    text-align: center;
-    padding: 0.5rem;
-}
+  background-color: orangered;
+  color: white;
+  text-align: center;
+  padding: 0.5rem; }
 
 /* Tienda - Texto título producto*/
 .card__parrafo--titulo {
-    background-color: orangered;
-    color: white;
-    font-size: 2rem;
-    margin: 1rem;
-    padding: 1rem;
-}
+  background-color: orangered;
+  color: white;
+  font-size: 2rem;
+  margin: 1rem;
+  padding: 1rem; }
 
 /* Tienda - Texto descripcion producto*/
 .card__parrafo--descripcion {
-    margin: 1rem;
-    padding: 1rem;
-}
+  margin: 1rem;
+  padding: 1rem; }
 
 /* Tienda - Texto precio producto*/
 .card__parrafo--precio {
-    background-color: orangered;
-    color: white;
-    font-size: 2rem;
-    margin: 1rem;
-    padding: 1rem;
-}
+  background-color: orangered;
+  color: white;
+  font-size: 2rem;
+  margin: 1rem;
+  padding: 1rem; }
 
 /* Contacto - Formulario */
 .formulario {
-    background-color: orangered;
-    color: white;
-    margin: 1rem;
-    padding: 1rem;
-}
+  background-color: orangered;
+  color: white;
+  margin: 1rem;
+  padding: 1rem; }
 
 /* Contacto - Formulario */
 .formulario div {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    margin: 1rem;
-}
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin: 1rem; }
 
 /* Contacto - Textos de formulario */
 .formulario div label {
-    display: grid;
-    justify-content: center;
-}
+  display: grid;
+  justify-content: center; }
 
 @media screen and (max-width: 500px) {
-    .formulario div {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        justify-content: center;
-        margin: 1rem;
-    }
-}
+  .formulario div {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    margin: 1rem; } }
 
 /* Contacto - Titulo de formulario */
 .titulo-formulario {
-    background-color: white;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
 
 /* Nosotros - Historia */
 .contenedor-historia {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-}
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px; }
 
 @media screen and (min-width: 500px) {
-    .contenedor-historia{
-    flex-direction: row;
-    }
-}
+  .contenedor-historia {
+    flex-direction: row; } }
 
 .contenedor-historia img {
-    height: 200px;
-    margin: 1rem;
-}
-.contenedor-opciones{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.contenedor-labels{
-    display: flex;
-    gap:1rem;
-}
-.contenedor-labels label{
-    background-color: orange;
-    color: white;
-    display: flex;
-    gap:1rem;
-    cursor: pointer;
-}
-.boton-historia{
-    background-color: orange;
-    padding: 1rem;
-}
-.contenedor-botones a{
-    display: none;
-}
+  height: 200px;
+  margin: 1rem; }
+
+.contenedor-opciones {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.contenedor-labels {
+  display: flex;
+  gap: 1rem; }
+
+.contenedor-labels label {
+  background-color: orange;
+  color: white;
+  display: flex;
+  gap: 1rem;
+  cursor: pointer; }
+
+.boton-historia {
+  background-color: orange;
+  padding: 1rem; }
+
+.contenedor-botones a {
+  display: none; }
+
 #sitio-web,
-#whatsapp-web{
-    display:none
-}
+#whatsapp-web {
+  display: none; }
+
 #sitio-web:checked ~ .contenedor-botones .boton-web {
-    display: block;
-}
+  display: block; }
+
 #whatsapp-web:checked ~ .contenedor-botones .boton-wpp {
-    display: block;
-}
-.contenedor-historia:nth-of-type(2n){
-    background-color: orangered;
-    color: white;
-}
-.contenedor-historia:not(:last-of-type){
-    margin-bottom: 1rem;
-}
+  display: block; }
 
+.contenedor-historia:nth-of-type(2n) {
+  background-color: orangered;
+  color: white; }
 
+.contenedor-historia:not(:last-of-type) {
+  margin-bottom: 1rem; }
+
+/* General - Footer */
+footer {
+  background-color: orangered;
+  color: white;
+  text-align: center;
+  padding: 1rem; }
+
+/* General - Imágen de Footer */
+.imagen-footer {
+  width: 3rem;
+  height: 3rem;
+  display: inline-block;
+  margin: 1rem; }

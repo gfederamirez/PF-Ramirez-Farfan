@@ -1,0 +1,55 @@
+/* Tienda - Tarjetas de productos */
+#productos-tienda {
+    grid-area: productos; }
+  
+  /* Tienda - Caja de productos */
+  .caja-productos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 1rem;
+    justify-items: center; }
+  
+  @media screen and (max-width: $screen-1) {
+    .caja-productos {
+      grid-template-columns: 1fr; } }
+  
+  @media screen and (max-widh: $screen-1) {
+    .caja-productos {
+      display: flex;
+      flex-direction: columns; } }
+  
+  /* Tienda - Carta de productos */
+  .carta-productos {
+    border: solid 0.2rem orangered;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem; }
+  
+  /* Tienda - Texto de oferta */
+  .oferton {
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    padding: 0.5rem; }
+  
+  /* Tienda - Texto título producto*/
+  .card__parrafo--titulo {
+    background-color: $background-color-2;
+    color: white;
+    font-size: 2rem;
+    margin: 1rem;
+    padding: 1rem; }
+  
+  /* Tienda - Texto descripcion producto*/
+  .card__parrafo--descripcion {
+    margin: 1rem;
+    padding: 1rem; }
+  
+  /* Tienda - Texto precio producto*/
+  .card__parrafo--precio {
+    background-color: $background-color-2;
+    color: white;
+    font-size: 2rem;
+    margin: 1rem;
+    padding: 1rem; }
