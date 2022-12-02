@@ -20,15 +20,13 @@
   
   /* Tienda - Carta de productos */
   .carta-productos {
-    border: solid 0.2rem orangered;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    border: solid 0.2rem $background-color-2;
+    @include flex-column-center;
     padding: 1rem; }
   
   /* Tienda - Texto de oferta */
   .oferton {
-    background-color: orangered;
+    background-color: $background-color-2;
     color: white;
     text-align: center;
     padding: 0.5rem; }

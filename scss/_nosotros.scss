@@ -1,8 +1,6 @@
 /* Nosotros - Historia */
 .contenedor-historia {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flex-column-center;
     gap: 30px; }
   
   @media screen and (min-width: 500px) {
@@ -14,9 +12,7 @@
     margin: 1rem; }
   
   .contenedor-opciones {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
+    @include flex-column-center; }
   
   .contenedor-labels {
     display: flex;
@@ -30,8 +26,7 @@
     cursor: pointer; }
   
   .boton-historia {
-    background-color: $background-color-1;
-    padding: 1rem; }
+    @extend .boton-general }
   
   .contenedor-botones a {
     display: none; }

@@ -17,7 +17,7 @@
     display: grid;
     justify-content: center; }
   
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: $screen-1) {
     .formulario div {
       display: grid;
       grid-template-columns: 1fr;

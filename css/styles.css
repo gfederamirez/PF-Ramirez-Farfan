@@ -4,20 +4,6 @@
 /* Variable para color de letras */
 /* Variables para tamaño de letras */
 /* Variables para tamaño de pantalla */
-/* General - Header */
-header {
-  background-image: radial-gradient(orangered, orange);
-  color: white;
-  width: 100%;
-  padding: 1rem; }
-
-/* General - Imágen de Header */
-.imagen-header {
-  width: 10rem;
-  height: 10rem;
-  display: inline-block;
-  margin: 1rem; }
-
 * {
   margin: 0;
   padding: 0;
@@ -50,12 +36,15 @@ body {
 .menu-item {
   padding: 1rem; }
 
-/* General - Botones */
-.boton-general {
+/* General - Extends */
+.boton-general, .boton-historia {
   font-family: "Black Ops One", cursive;
   margin: 1rem;
-  padding: 1rem; }
+  padding: 1rem;
+  cursor: pointer; }
 
+/* General - Mixin */
+/* General - Mixin con parametros */
 /* General - Textos de titulos (h1) */
 h1 {
   font-size: 3rem; }
@@ -91,6 +80,20 @@ p {
 /*General - Imagenes no sobrepasan la pantalla*/
 img {
   max-width: 100%; }
+
+/* General - Header */
+header {
+  background-image: radial-gradient(orangered, orange);
+  color: white;
+  width: 100%;
+  padding: 1rem; }
+
+/* General - Imágen de Header */
+.imagen-header {
+  width: 10rem;
+  height: 10rem;
+  display: inline-block;
+  margin: 1rem; }
 
 /* Inicio - Control de carrusel izquierdo*/
 .carousel-control-prev {
@@ -225,10 +228,6 @@ img {
   display: flex;
   gap: 1rem;
   cursor: pointer; }
-
-.boton-historia {
-  background-color: orange;
-  padding: 1rem; }
 
 .contenedor-botones a {
   display: none; }

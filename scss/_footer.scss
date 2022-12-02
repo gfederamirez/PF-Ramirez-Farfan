@@ -7,8 +7,7 @@ footer {
   
   /* General - Imágen de Footer */
   .imagen-footer {
-    width: 3rem;
-    height: 3rem;
+    @include sizes(3rem, 3rem);
     display: inline-block;
     margin: 1rem; }
   

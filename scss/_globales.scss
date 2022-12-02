@@ -11,11 +11,11 @@
   /* General - Body */
   body {
     font-family: $font-family-1;
-    background-image: linear-gradient(orange, orangered);
+    background-image: linear-gradient($background-color-1, $background-color-2);
     color: white;
     text-align: center;
     margin: 0; }
-  
+    
   /* General - Botones de navegación */
   .menu-escritorio {
     list-style: none;
@@ -25,16 +25,28 @@
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-between;
-    background-image: linear-gradient(orangered, orange, orangered); }
+    background-image: linear-gradient($background-color-2, $background-color-1, $background-color-2); }
   
   .menu-item {
     padding: 1rem; }
   
-  /* General - Botones */
+  /* General - Extends */
   .boton-general {
     font-family: $font-family-2;
     margin: 1rem;
-    padding: 1rem; }
+    padding: 1rem;
+    cursor: pointer; }
+
+  /* General - Mixin */
+  @mixin flex-column-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+
+  /* General - Mixin con parametros */
+  @mixin sizes ($ancho, $alto) {
+    width: $ancho;
+    height: $alto; }
   
   /* General - Textos de titulos (h1) */
   h1 {
@@ -71,4 +83,3 @@
   /*General - Imagenes no sobrepasan la pantalla*/
   img {
     max-width: 100%; }
-  
