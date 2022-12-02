@@ -3,7 +3,7 @@
     @include flex-column-center;
     gap: 30px; }
   
-  @media screen and (min-width: 500px) {
+  @media screen and (min-width: $screen-1) {
     .contenedor-historia {
       flex-direction: row; } }
   

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://gfederamirez.github.io/PreEntrega3-Ramirez-Farfan/</title>
+  <link>https://gfederamirez.github.io/PreEntrega3-Ramirez-Farfan/</link>
+
+<item>
+     <link>https://gfederamirez.github.io/PreEntrega3-Ramirez-Farfan/</link>
+     <title>Inicio</title>
+     <description>Inicio</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://gfederamirez.github.io/PreEntrega3-Ramirez-Farfan/index.html</link>
+     <title>Inicio</title>
+     <description>Inicio</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://gfederamirez.github.io/PreEntrega3-Ramirez-Farfan/pages/tienda.html</link>
+     <title>Menú</title>
+     <description>Menú</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://gfederamirez.github.io/PreEntrega3-Ramirez-Farfan/pages/nosotros.html</link>
+     <title>Nosotros</title>
+     <description>Nosotros</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://gfederamirez.github.io/PreEntrega3-Ramirez-Farfan/pages/ubicacion.html</link>
+     <title>Sucursales</title>
+     <description>Sucursales</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://gfederamirez.github.io/PreEntrega3-Ramirez-Farfan/pages/contacto.html</link>
+     <title>Contacto</title>
+     <description>Contacto</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
