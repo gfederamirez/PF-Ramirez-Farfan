@@ -83,6 +83,7 @@ p {
 
 /*General - Imagenes no sobrepasan la pantalla*/
 img {
+  transition: 0.5s;
   max-width: 100%; }
 
 /* General - Header */
