@@ -36,6 +36,10 @@ body {
 .menu-item {
   padding: 1rem; }
 
+.menu-escritorio a {
+  color: white;
+  padding: 1rem; }
+
 /* General - Extends */
 .boton-general, .boton-historia {
   font-family: "Black Ops One", cursive;
@@ -257,8 +261,26 @@ footer {
   padding: 1rem; }
 
 /* General - Imágen de Footer */
-.imagen-footer {
+.imagen-footer-facebook {
   width: 3rem;
   height: 3rem;
   display: inline-block;
+  transition: 0.5s;
   margin: 1rem; }
+
+.imagen-footer-instagram {
+  width: 3rem;
+  height: 3rem;
+  display: inline-block;
+  transition: 0.5s;
+  margin: 1rem; }
+
+.imagen-footer-whatsapp {
+  width: 3rem;
+  height: 3rem;
+  display: inline-block;
+  transition: 0.5s;
+  margin: 1rem; }
+
+img:hover {
+  transform: scale(1.2); }

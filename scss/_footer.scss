@@ -6,8 +6,25 @@ footer {
     padding: 1rem; }
   
   /* General - Imágen de Footer */
-  .imagen-footer {
+  .imagen-footer-facebook {
     @include sizes(3rem, 3rem);
     display: inline-block;
+    transition: 0.5s;
     margin: 1rem; }
+
+  .imagen-footer-instagram {
+    @include sizes(3rem, 3rem);
+    display: inline-block;
+    transition: 0.5s;
+    margin: 1rem; }
+  
+  .imagen-footer-whatsapp {
+    @include sizes(3rem, 3rem);
+    display: inline-block;
+    transition: 0.5s;
+    margin: 1rem; }
+
+  img:hover {
+    transform: scale(1.2);
+  }
   
